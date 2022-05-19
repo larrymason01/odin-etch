@@ -90,11 +90,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Ghost */
-.ghost-container {
-    border-right: 4px solid black;
-}
-
 /* Others */
 
 .pixel {
@@ -102,4 +97,10 @@ body {
 
     border-right: 1px solid black;
     border-bottom: 1px solid black;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
