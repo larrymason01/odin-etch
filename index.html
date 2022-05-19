@@ -8,6 +8,39 @@
     <title>Etch-a-Sketch | The Odin Project</title>
 </head>
 <body>
+    <div class="main-container">
 
+        <!-- Settings -->
+        <div class="side-container settings-container">
+            <div class="settings-header">Settings</div>
+            <div class="pixel-color">
+                <label for="pixel-color-picker">Pixel Color</label>
+                <input type="color" id="pixel-color-picker" value="#000000">
+            </div>
+            <div class="background-color">
+                <label for="background-color-picker">Background Color</label>
+                <input type="color" id="background-color-picker" value="#FFFFFF">
+            </div>
+            <div class="canvas-resolution">
+                Canvas Resolution
+                <div class="picker">
+                    <input type="radio" id="8" class="canvas-radio" name="canv_res" value="8">
+                    <label for="8px">8px</label>
+                    <input type="radio" id="16" class="canvas-radio" name="canv_res" value="16">
+                    <label for="16px">16px</label>
+                    <input type="radio" id="32" class="canvas-radio" name="canv_res" value="32">
+                    <label for="32px">32px</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Canvas -->
+        <div class="canvas-container"></div>
+
+        <!-- Ghost Container (for now) -->
+        <div class="ghost-container"></div>
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
